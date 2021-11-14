@@ -1,0 +1,14 @@
+.header-section{
+    height: 6rem;
+    padding: 2rem 0;
+    @media screen and (max-width:768px){
+        padding: 1rem 0rem;
+    }
+
+    &__contanier{
+        padding: 0 3.8rem;
+        @media screen and (max-width:768px){
+            padding: 0 1rem;
+        }
+    }
+}
