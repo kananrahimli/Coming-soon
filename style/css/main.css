@@ -315,6 +315,13 @@ html {
   border: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  margin-top: 5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .main-section__container--button {
+    margin-top: 10rem !important;
+  }
 }
 
 .main-section__container--button:hover {

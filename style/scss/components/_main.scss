@@ -68,6 +68,10 @@
             border-radius: 12px;
             border: none;
             transition: all 0.3s;
+            margin-top: 5rem !important;
+            @media screen  and (max-width:768px){
+                margin-top: 10rem !important;
+            }
 
             &:hover{
                 background: #1662d1;
